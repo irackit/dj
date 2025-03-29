@@ -1,0 +1,6 @@
+start:
+  jmp cap
+cap:
+  call fun
+fun:
+  pop r <--- where we are 0x
